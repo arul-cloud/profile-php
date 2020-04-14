@@ -2,8 +2,15 @@
 	body{
 		background-color: #126e66;
 	}
+	#welcome{
+		height: 100vh;
+	}
+	.welcome-text{
+		position: relative; 
+		top: 35%;
+	}
 	#container-profile, #map{
-		/*display: none;*/
+		display: none;
 	}
 	#container-profile{
 		height: 660px;
@@ -12,7 +19,7 @@
 		padding: 7%;
 	}
 	.profile-box-left{
-		height: 500px;
+		/*height: 500px;*/
 		background-color: #14655c;
 	}
 	.content{
@@ -27,7 +34,7 @@
 		color: aquamarine;
 	}
 	.profile-box-right{
-		height: 500px;
+		/*height: 500px;*/
 		background-color: #175f56;
 	}
 	#container-profile .tab-menu{
@@ -62,7 +69,11 @@
 		bottom: 30px; 
 		right: 50px;
 	}
-	.footer{
+	footer{
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		/*bottom: 0;*/
 		background-color: #000;
 	}
 	footer p{
